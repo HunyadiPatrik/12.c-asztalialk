@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("ennyit tudok");
+            Console.WriteLine("nem tanitottak ilyet");
             Console.ReadLine();
         }
     }
