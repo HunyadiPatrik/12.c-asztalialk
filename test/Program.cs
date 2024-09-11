@@ -10,6 +10,7 @@ namespace test
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("a pisztacia elfogyott csokalade nem is volt!");
         }
     }
 }
