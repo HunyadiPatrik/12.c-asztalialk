@@ -10,8 +10,6 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("nem tanitottak ilyet");
-            Console.ReadLine();
         }
     }
 }
