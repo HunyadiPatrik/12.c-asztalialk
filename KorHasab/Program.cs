@@ -11,8 +11,9 @@ namespace KorHasab
         static void Main(string[] args)
         {
             // A kor osztaly felhasznalasa
+
             // 1.objektumunk
-            #region 1.objektum
+            #region #region 1.objektum
             Kor k1 = new Kor(); // objektum peldany letrehozasa uresen
 
             k1.ReadSugar(15.0); // A sugár megadása
@@ -28,6 +29,7 @@ namespace KorHasab
             k2.SetTerulet();
 
             Console.WriteLine($"A {k2.GetSugar()} sguarú kör kerülete: {k2.GetKerulet()}, területe: {k2.GetTerulet()}");
+            #endregion EOf 2.objektum
 
             Console.ReadKey();
         }
