@@ -35,6 +35,11 @@ namespace KorHasab
             kor2 k21 = new kor2(24.5);
             Console.WriteLine($"\n\nA kor2 adatai: \nsugar = {k21.GetSugar()}, \nkerulet = {k21.GetKerulet()}, \nterulet = {k21.GetTerulet()} ");
             #endregion Eof kor2
+
+            #region Henger szamitas
+            henger h1 = new henger(15, 30);
+            Console.WriteLine($"\n\nA henger adatai: \nsugara = {h1.GetSugar()}, magassaga = {h1.GetMagassag()}, \nalapterulete = {h1.GetTerulet()}, \nterfogata = {h1.GetTerfogat()}");
+            #endregion Eof henger
             Console.ReadKey();
         }
     }
