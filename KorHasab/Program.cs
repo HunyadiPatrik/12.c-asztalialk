@@ -31,6 +31,10 @@ namespace KorHasab
             Console.WriteLine($"A {k2.GetSugar()} sguarú kör kerülete: {k2.GetKerulet()}, területe: {k2.GetTerulet()}");
             #endregion EOf 2.objektum
 
+            #region kor2 hasznalata
+            kor2 k21 = new kor2(24.5);
+            Console.WriteLine($"\n\nA kor2 adatai: \nsugar = {k21.GetSugar()}, \nkerulet = {k21.GetKerulet()}, \nterulet = {k21.GetTerulet()} ");
+            #endregion Eof kor2
             Console.ReadKey();
         }
     }

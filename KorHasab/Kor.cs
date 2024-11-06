@@ -15,6 +15,7 @@ namespace KorHasab
             kerulet,
             terulet;
         // Konstruktorok
+        // a konstruktor szerepe a peldanyositas az osztalybol peldanyokat hoz letre
         public Kor(){}
 
         public Kor(double r) 
