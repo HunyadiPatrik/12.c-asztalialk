@@ -8,24 +8,21 @@ namespace tegla
 {
     class Teglalapszamitasok
     {
-        private double aoldal,
-                    boldal,
-                    coldal,
-                    terulet,
-                    felszin,
-                    terfogat,
-                    kerulet;
+        protected double aoldal,
+            boldal,
+            terulet,
+            kerulet;
 
         public Teglalapszamitasok()
         {
 
         }
-        public Teglalapszamitasok(double a, double b, double c)
+        public Teglalapszamitasok(double a, double b)
         {
             this.aoldal = a;
             this.boldal = b;
-            this.coldal = c;
         }
+
         public void ReadAoldal(double aoldal)
         {
             this.aoldal = aoldal;
@@ -35,20 +32,6 @@ namespace tegla
             this.boldal = boldal;
         }
 
-        public void ReadColdal(double coldal)
-        {
-            this.coldal = coldal;
-        }
-
-        public void FelszinSzam()
-        {
-            this.felszin = 2 * (this.aoldal * this.boldal + this.boldal * this.coldal + this.coldal * this.aoldal);
-        }
-
-        public void TerfogatSzam()
-        {
-            this.terfogat = (this.aoldal * this.boldal * this.coldal);
-        }
         public void TeruletSzam()
         {
             this.terulet = this.aoldal * this.boldal;
@@ -60,7 +43,7 @@ namespace tegla
         public double GetKerulet() { return kerulet; }
         public double GetTerulet() { return terulet; }
 
-        public double GetFelszin() { return felszin; }
-        public double GetTerfogat() { return terfogat; }
+
     }
+
 }
