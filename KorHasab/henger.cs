@@ -12,6 +12,7 @@ namespace KorHasab
         private double magassag,
             terfogat;
 
+        // konstruktor
         public henger(double r, double m)
         {
             this.sugar = r;
