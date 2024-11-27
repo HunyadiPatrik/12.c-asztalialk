@@ -8,10 +8,10 @@ namespace tegla
 {
     class Teglalapszamitasok
     {
-        private double aoldal,
-                    boldal,
-                    terulet,
-                    kerulet;
+        protected double aoldal,
+            boldal,
+            terulet,
+            kerulet;
 
         public Teglalapszamitasok()
         {
@@ -22,6 +22,7 @@ namespace tegla
             this.aoldal = a;
             this.boldal = b;
         }
+
         public void ReadAoldal(double aoldal)
         {
             this.aoldal = aoldal;
@@ -30,6 +31,7 @@ namespace tegla
         {
             this.boldal = boldal;
         }
+
         public void TeruletSzam()
         {
             this.terulet = this.aoldal * this.boldal;
@@ -40,5 +42,8 @@ namespace tegla
         }
         public double GetKerulet() { return kerulet; }
         public double GetTerulet() { return terulet; }
+
+
     }
+
 }
