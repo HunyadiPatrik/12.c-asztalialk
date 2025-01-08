@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaromszogTipusaOOP", "Harom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kivetel", "Kivetel\Kivetel.csproj", "{0F4D6103-9717-47D4-8706-F535099373C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kocka", "Kocka\Kocka.csproj", "{F8F304EC-43F0-4D82-B585-6E9509A4A82C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{0F4D6103-9717-47D4-8706-F535099373C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F4D6103-9717-47D4-8706-F535099373C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F4D6103-9717-47D4-8706-F535099373C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8F304EC-43F0-4D82-B585-6E9509A4A82C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8F304EC-43F0-4D82-B585-6E9509A4A82C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8F304EC-43F0-4D82-B585-6E9509A4A82C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8F304EC-43F0-4D82-B585-6E9509A4A82C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
