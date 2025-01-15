@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kivetel", "Kivetel\Kivetel.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kocka", "Kocka\Kocka.csproj", "{F8F304EC-43F0-4D82-B585-6E9509A4A82C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoliformOOP", "PoliformOOP\PoliformOOP.csproj", "{4F2625B4-0FF8-4A21-8C5F-5068B4932239}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetterSetter", "GetterSetter\GetterSetter.csproj", "{3A19E5C7-1F6B-4E4B-BE2A-313D891C0676}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{F8F304EC-43F0-4D82-B585-6E9509A4A82C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8F304EC-43F0-4D82-B585-6E9509A4A82C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8F304EC-43F0-4D82-B585-6E9509A4A82C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F2625B4-0FF8-4A21-8C5F-5068B4932239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F2625B4-0FF8-4A21-8C5F-5068B4932239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F2625B4-0FF8-4A21-8C5F-5068B4932239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F2625B4-0FF8-4A21-8C5F-5068B4932239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A19E5C7-1F6B-4E4B-BE2A-313D891C0676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A19E5C7-1F6B-4E4B-BE2A-313D891C0676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A19E5C7-1F6B-4E4B-BE2A-313D891C0676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A19E5C7-1F6B-4E4B-BE2A-313D891C0676}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
