@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.34301.259
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{F99977BA-6999-44DA-B2AA-7010B449A85F}"
 EndProject
@@ -28,6 +28,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoliformOOP", "PoliformOOP\PoliformOOP.csproj", "{4F2625B4-0FF8-4A21-8C5F-5068B4932239}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetterSetter", "GetterSetter\GetterSetter.csproj", "{3A19E5C7-1F6B-4E4B-BE2A-313D891C0676}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{21A8A4AD-B52B-4DD7-ABF6-FB84CDDE7116}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{3A19E5C7-1F6B-4E4B-BE2A-313D891C0676}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A19E5C7-1F6B-4E4B-BE2A-313D891C0676}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A19E5C7-1F6B-4E4B-BE2A-313D891C0676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21A8A4AD-B52B-4DD7-ABF6-FB84CDDE7116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21A8A4AD-B52B-4DD7-ABF6-FB84CDDE7116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21A8A4AD-B52B-4DD7-ABF6-FB84CDDE7116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21A8A4AD-B52B-4DD7-ABF6-FB84CDDE7116}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
